@@ -1,127 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - R&D Nordic</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-            text-align: left;
-            margin: 10px 20px;
-        }
-        .back {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #0073e6;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-        }
-        .back:hover {
-            background-color: #005bb5;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R&D Nordic</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Optional: Favicon or Logo in browser tab -->
+  <!-- <link rel="icon" type="image/png" href="images/logo.png" /> -->
 </head>
 <body>
-    <div class="container">
-        <h1>About Me</h1>
-        <p>With 13 years of experience in R&D in the public sector, I started my career in healthcare, working directly with patients.</p>
-        <p>Over time, my interest in research grew, and 7 years ago, I transitioned into the research field, publishing several papers.</p>
-        <p>Currently, I work as a Data Privacy Advisor and Research & Development Advisor at the University of Inland Norway.</p>
-        <p>I also serve as an AI Ambassador, training academic and administrative staff on integrating AI into their work.</p>
-        <p>As a member of KI-faggruppe at Digi Innlandet, I contribute to AI strategy discussions in the region.</p>
-        <p>My expertise includes project management, grant funding preparation, GDPR compliance, and research support.</p>
-        <a href="index.html" class="back">Back to Home</a>
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R&D Nordic</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-        .contact {
-            margin-top: 20px;
-            font-size: 16px;
-        }
-        a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #0073e6;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-        }
-        .button:hover {
-            background-color: #005bb5;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav-logo">
+        <!-- If you have a logo image, uncomment and use it below -->
+        <!-- <img src="images/rd-nordic-logo.png" alt="R&D Nordic Logo" /> -->
         <h1>R&D Nordic</h1>
-        <p>Expert consulting in research, project development, GDPR compliance, and innovation.</p>
-        <p>Helping businesses and institutions navigate funding opportunities and regulatory landscapes.</p>
-        <div class="contact">
-            <p>Contact: <a href="mailto:your@email.com">your@email.com</a></p>
-            <p>Location: Hamar, Norway</p>
-        </div>
-        <a href="about.html" class="button">About Me</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">What We Do</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Landing) -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h2>Innovating, Advising, and Future-Proofing Businesses</h2>
+      <p>
+        A modern consulting firm specializing in research & development strategy, 
+        AI integration, project management, and data privacy. We help organizations adapt, 
+        grow, and succeed in an increasingly digital world.
+      </p>
     </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <h2>What We Do</h2>
+    <p class="section-intro">
+      R&D Nordic provides expert consulting services tailored to organizations looking to:
+    </p>
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Integrate AI & Automation</h3>
+        <ul>
+          <li>AI training & strategy (Copilot, ChatGPT, and more)</li>
+          <li>AI-driven business transformation</li>
+          <li>AI policy and ethical considerations</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <h3>Secure Funding & Grants</h3>
+        <ul>
+          <li>National & international grant scanning</li>
+          <li>Application writing & project planning</li>
+          <li>Strategic funding advisory</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <h3>Optimize Research & Project Management</h3>
+        <ul>
+          <li>R&D strategy development</li>
+          <li>Project management & execution</li>
+          <li>Research collaboration support</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <h3>Strengthen Data Privacy & Compliance</h3>
+        <ul>
+          <li>GDPR & data security advisory</li>
+          <li>Risk assessments & compliance frameworks</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <h3>Develop Leaders & Innovators</h3>
+        <ul>
+          <li>Interview prep & mentorship</li>
+          <li>Career and research coaching</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Work With Us Section -->
+  <section id="why-us" class="why-us-section">
+    <h2>Why Work With Us?</h2>
+    <p>
+      With over 13 years in research and development, 7+ years in data privacy & project management, 
+      and deep expertise in AI & funding strategies, R&D Nordic is a trusted partner for businesses 
+      and researchers navigating innovation, digital transformation, and regulatory landscapes.
+    </p>
+    <ul>
+      <li>AI thought leader & trainer at the University of Inland Norway</li>
+      <li>Grant specialist with a track record of securing national & EU funding</li>
+      <li>Project management expert leading cross-disciplinary initiatives</li>
+      <li>Privacy & compliance advisor ensuring regulatory excellence</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Let’s Work Together</h2>
+    <p>
+      Whether you're looking to integrate AI, secure funding, or strengthen your research strategy, we’re here to help.
+    </p>
+    <a class="contact-button" href="mailto:info@rdnordi.com">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 R&D Nordic. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
