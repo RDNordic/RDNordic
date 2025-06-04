@@ -1,118 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>R&D Nordic</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&D Nordic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <header class="site-header">
-    <nav class="navbar">
-      <div class="nav-logo">
-        <a href="index.html">
-          <img src="images/logo.webp" alt="R&D Nordic Logo" class="logo-thumb" />
-        </a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#services">What We Do</a></li>
-        <li><a href="#why-us">Why Us</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a class="logo" href="#hero">R&D Nordic</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">What We Do</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Hero Section -->
-  <section id="hero" class="hero-section">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <h2>Innovating, Advising, and Future-Proofing Businesses</h2>
-      <p>
-        R&D Nordic is a modern consulting firm specializing in research &amp; development strategy, 
-        AI integration, project management, data privacy. We help organizations adapt, 
-        grow, and succeed in an increasingly digital world.
-      </p>
-    </div>
-  </section>
-  
-  <!-- Services Section -->
- <section id="services" class="services-section">
-  <h2>What We Do</h2>
-  <p class="intro">Our tailored services include:</p>
-  <div class="service-cards">
-    <article class="service-card">
-      <h3>Integrate AI & Automation</h3>
+    <section id="hero" class="hero">
+        <img src="images/hero.jpg" alt="Nordic landscape" class="hero-img">
+        <div class="hero-text container">
+            <h1>Future-Proof Consulting</h1>
+            <p>Project management, data privacy, AI integration and research funding guidance.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services container">
+        <h2>What We Do</h2>
+        <div class="service-cards">
+            <article class="service-card">
+                <img src="images/service1.jpg" alt="Project management illustration">
+                <h3>Project Management</h3>
+                <ul>
+                    <li>Planning & execution</li>
+                    <li>Agile methodologies</li>
+                    <li>Risk management</li>
+                </ul>
+            </article>
+            <article class="service-card">
+                <img src="images/service2.jpg" alt="Data privacy concept">
+                <h3>Data Privacy & GDPR</h3>
+                <ul>
+                    <li>Compliance assessments</li>
+                    <li>Privacy policies</li>
+                    <li>Security best practices</li>
+                </ul>
+            </article>
+            <article class="service-card">
+                <img src="images/service3.jpg" alt="Artificial intelligence">
+                <h3>AI Integration & Ethics</h3>
+                <ul>
+                    <li>Automation strategies</li>
+                    <li>Ethical guidelines</li>
+                    <li>Custom AI solutions</li>
+                </ul>
+            </article>
+            <article class="service-card">
+                <img src="images/service4.jpg" alt="Grant funding">
+                <h3>Grant Funding</h3>
+                <ul>
+                    <li>Opportunity scanning</li>
+                    <li>Application support</li>
+                    <li>Budget planning</li>
+                </ul>
+            </article>
+            <article class="service-card">
+                <img src="images/service5.jpg" alt="Research strategy">
+                <h3>Research Strategy</h3>
+                <ul>
+                    <li>Roadmap development</li>
+                    <li>Collaboration advice</li>
+                    <li>Innovation projects</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="why-us" class="why-us">
+        <h2>Why Us</h2>
+        <p>We bring Nordic efficiency and over a decade of expertise to every engagement.</p>
         <ul>
-          <li>AI training & strategy (understanding LLMs, automated workflows)</li>
-          <li>AI-driven business transformation</li>
-          <li>AI policy, data privacy and ethical considerations in line with GDPR</li>
+            <li>Proven record of securing grants</li>
+            <li>Experienced project managers</li>
+            <li>GDPR and privacy specialists</li>
+            <li>Ethical AI adoption</li>
         </ul>
-    </article>
-    <article class="service-card">
-      <h3>Secure Funding & Grants</h3>
-      <ul>
-        <li>National & international grant scanning</li>
-        <li>Application writing & project planning</li>
-        <li>Strategic funding advisory</li>
-      </ul>
-    </article>
-    <article class="service-card">
-      <h3>Optimize Research & Project Management</h3>
-      <ul>
-        <li>R&D strategy development</li>
-        <li>Project management & execution</li>
-        <li>Research collaboration support</li>
-      </ul>
-    </article>
-    <article class="service-card">
-      <h3>Strengthen Data Privacy & Compliance</h3>
-      <ul>
-        <li>GDPR & data security advisory</li>
-        <li>Risk assessments & compliance frameworks</li>
-      </ul>
-    </article>
-    <article class="service-card">
-      <h3>Develop Leaders & Innovators</h3>
-      <ul>
-        <li>Interview prep & mentorship</li>
-        <li>Career and research coaching</li>
-      </ul>
-    </article>
-  </div>
-  </section>
+    </section>
 
-  <!-- Why Us Section -->
-  <section id="why-us" class="why-us-section">
-    <h2>Why Work With Us?</h2>
-    <div class="why-us-card">
-      <p>
-        With over 13 years in research and development, 7+ years in data privacy &amp; project management, 
-        and expertise in AI implementation &amp; funding strategies, R&D Nordic is a young but trusted partner for businesses 
-        and researchers navigating innovation, digital transformation, and regulatory landscapes in the EU.
-      </p>
-      <ul>
-        <li>AI implementation support in Norwegian public and private sector</li>
-        <li>Grant specialists with a track record of securing national &amp; EU funding</li>
-        <li>Project management experts leading cross-disciplinary initiatives</li>
-        <li>Privacy &amp; compliance advisors ensuring regulatory excellence</li>
-      </ul>
-    </div>
-  </section>
+    <section id="contact" class="contact container">
+        <h2>Contact Us</h2>
+        <p>Ready to move your projects forward? <a href="mailto:rdnordic@proton.me">Email us</a>.</p>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section">
-    <h2>Let’s Work Together</h2>
-    <p>
-      Whether you're looking to integrate AI, secure funding, or strengthen your research strategy, we’re here to help.
-    </p>
-    <a class="contact-button" href="mailto:rdnordic@proton.me">Contact Us</a>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p>&copy; 2025 R&D Nordic. All rights reserved.</p>
-  </footer>
+    <footer class="site-footer">
+        <p>&copy; 2025 R&D Nordic. All rights reserved.</p>
+    </footer>
 </body>
 </html>
