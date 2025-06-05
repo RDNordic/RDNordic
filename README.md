@@ -17,11 +17,7 @@ utvikling, prosjektledelse og rådgivning.
 
 ## Deploy til GitHub Pages
 
-Nettsiden bygges direkte fra `main`-grenen. For å publisere med eget domene:
-
-1. Sørg for at filen `CNAME` inneholder domenet `rdnordic.com`.
-2. Push endringer til `main`. GitHub Pages vil automatisk serve innholdet,
-   og domenet peker til repoet via `CNAME`.
+Nettsiden bygges direkte fra `main`-grenen.
 
 ## Filstruktur
 
@@ -34,5 +30,3 @@ Nettsiden bygges direkte fra `main`-grenen. For å publisere med eget domene:
     ├── background.jpg
     └── logo.webp
 ```
-
-Alle filer ligger i rotkatalogen slik at GitHub Pages kan deploye direkte fra `main`.
