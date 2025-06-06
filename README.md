@@ -4,6 +4,10 @@ Dette repositoriet inneholder koden til nettstedet **R&D Nordic** som hostes via
 Her finner du en enkel landingsside med informasjon om tjenestene våre innen forskning,
 utvikling, prosjektledelse og rådgivning.
 
+
+▶ **Live site:** https://rdnordic.com  
+▶ **Mission:** Nordic-inspired consulting in AI, grant funding, and data privacy.
+
 ## Forhåndsvis siden lokalt
 
 1. Klon repoet.
@@ -30,3 +34,6 @@ Nettsiden bygges direkte fra `main`-grenen.
     ├── background.jpg
     └── logo.webp
 ```
+License
+
+© 2025 R&D Nordic AS. All rights reserved.
