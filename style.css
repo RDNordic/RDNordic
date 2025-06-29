@@ -151,4 +151,9 @@ h3 {
     flex-direction: column;
     gap: 0.5rem;
   }
+  .hero-logo {
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 100px;
+  }
 }
