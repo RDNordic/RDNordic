@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #005b96;
+  --background-light: #eef2f5;
+  --text-color: #333;
+}
+
 body {
   font-family: 'Inter', 'Roboto', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: var(--background-light);
+  color: var(--text-color);
   line-height: 1.6;
 }
 
@@ -41,7 +47,7 @@ h3 {
 
 .logo {
   font-weight: 600;
-  color: #005b96;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -53,7 +59,7 @@ h3 {
 
 .nav-links a {
   text-decoration: none;
-  color: #005b96;
+  color: var(--primary-color);
   font-weight: 600;
 }
 
@@ -85,14 +91,20 @@ h3 {
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-logo {
   position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: 120px;
-  z-index: 1;
+  top: 2rem;
+  left: 2rem;
+  width: 90px;
+  z-index: 0;
 }
 
 .services {
