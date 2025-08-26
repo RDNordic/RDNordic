@@ -149,12 +149,48 @@
 
     <section id="contact" class="contact container">
         <h2>Contact Us</h2>
-        <p>Ready to move your projects forward? <a href="mailto:rdnordic@proton.me">Email us</a>.</p>
-        <p><a href="privacy.html">Privacy Statement</a></p>
+        <form id="contact-form" action="#" method="post" class="mt-4 space-y-4">
+            <div>
+                <label class="block">Name
+                    <input type="text" name="name" required class="w-full mt-1 p-2 border rounded">
+                </label>
+            </div>
+            <div>
+                <label class="block">Email
+                    <input type="email" name="email" required class="w-full mt-1 p-2 border rounded">
+                </label>
+            </div>
+            <div>
+                <label class="block">Message
+                    <textarea name="message" required class="w-full mt-1 p-2 border rounded"></textarea>
+                </label>
+            </div>
+            <div class="hidden">
+                <label>Hvis du er et menneske, la dette feltet stå tomt
+                    <input type="text" name="_human_check">
+                </label>
+            </div>
+            <div>
+                <label class="inline-flex items-start">
+                    <input type="checkbox" name="consent" required class="mr-2 mt-1">
+                    Jeg samtykker til at R&amp;D Nordic behandler mine opplysninger som beskrevet i <a href="/privacy.html" class="text-[#005b96] underline">Personvernerklæringen</a>.
+                </label>
+            </div>
+            <button type="submit" class="px-6 py-3 bg-[#005b96] text-white font-semibold rounded">Send</button>
+        </form>
+        <p class="mt-4">Eller <a href="mailto:rdnordic@proton.me" class="text-[#005b96] underline">send oss en e-post</a>.</p>
     </section>
 
+    <script>
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+        if (document.querySelector('input[name="_human_check"]').value) {
+            e.preventDefault();
+        }
+    });
+    </script>
+
     <footer class="site-footer">
-        <p>&copy; 2025 R&D Nordic. All rights reserved.</p>
+        <p>&copy; 2025 R&amp;D Nordic. All rights reserved. <a href="/privacy.html">Personvern</a> | <a href="#contact">Kontakt</a></p>
     </footer>
 </body>
 </html>
