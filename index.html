@@ -149,45 +149,35 @@
 
     <section id="contact" class="contact container">
         <h2>Contact Us</h2>
-        <form id="contact-form" action="#" method="post" class="mt-4 space-y-4">
-            <div>
-                <label class="block">Name
-                    <input type="text" name="name" required class="w-full mt-1 p-2 border rounded">
-                </label>
-            </div>
-            <div>
-                <label class="block">Email
-                    <input type="email" name="email" required class="w-full mt-1 p-2 border rounded">
-                </label>
-            </div>
-            <div>
-                <label class="block">Message
-                    <textarea name="message" required class="w-full mt-1 p-2 border rounded"></textarea>
-                </label>
-            </div>
-            <div class="hidden">
-                <label>Hvis du er et menneske, la dette feltet stå tomt
-                    <input type="text" name="_human_check">
-                </label>
-            </div>
-            <div>
-                <label class="inline-flex items-start">
-                    <input type="checkbox" name="consent" required class="mr-2 mt-1">
-                    Jeg samtykker til at R&amp;D Nordic behandler mine opplysninger som beskrevet i <a href="/privacy.html" class="text-[#005b96] underline">Personvernerklæringen</a>.
-                </label>
-            </div>
-            <button type="submit" class="px-6 py-3 bg-[#005b96] text-white font-semibold rounded">Send</button>
+        <form class="rounded-2xl border border-white/10 p-6 card-gradient space-y-4"
+              action="https://formsubmit.co/adnordic@proton.me"
+              method="POST">
+            <input type="hidden" name="_subject" value="New enquiry from R&amp;D Nordic">
+            <input type="hidden" name="_next" value="/thanks.html">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+
+            <label class="block text-sm">Navn</label>
+            <input name="name" required class="w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3">
+
+            <label class="block text-sm mt-2">E-post</label>
+            <input type="email" name="email" required class="w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3">
+
+            <label class="block text-sm mt-2">Melding</label>
+            <textarea name="message" rows="5" required class="w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3"></textarea>
+
+            <label class="flex items-start gap-2 text-sm mt-2">
+              <input type="checkbox" name="consent" required class="mt-1">
+              <span>Jeg samtykker til at R&amp;D Nordic behandler mine opplysninger som beskrevet i
+                <a href="/privacy.html" class="underline">Personvernerklæringen</a>.
+              </span>
+            </label>
+
+            <button type="submit" class="rounded-xl bg-white text-slate-900 px-5 py-3 font-semibold w-full">Send</button>
         </form>
         <p class="mt-4">Eller <a href="mailto:rdnordic@proton.me" class="text-[#005b96] underline">send oss en e-post</a>.</p>
     </section>
-
-    <script>
-    document.getElementById('contact-form').addEventListener('submit', function (e) {
-        if (document.querySelector('input[name="_human_check"]').value) {
-            e.preventDefault();
-        }
-    });
-    </script>
 
     <footer class="site-footer">
         <p>&copy; 2025 R&amp;D Nordic. All rights reserved. <a href="/privacy.html">Personvern</a> | <a href="#contact">Kontakt</a></p>
