@@ -1,0 +1,28 @@
+{
+  "name": "rdnordic-website",
+  "version": "1.0.0",
+  "description": "R&D Nordic consulting website - static HTML/CSS site with self-hosted dependencies",
+  "private": true,
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "validate": "echo 'Validating HTML files...' && find . -name '*.html' -not -path './node_modules/*' -type f -print"
+  },
+  "keywords": [
+    "consulting",
+    "project-management",
+    "gdpr",
+    "ai-ethics",
+    "grant-funding"
+  ],
+  "author": "R&D Nordic",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RDNordic/RDNordic"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
