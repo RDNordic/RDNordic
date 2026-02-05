@@ -445,6 +445,7 @@ h3 {
 /* Colors */
 .text-gray-700 { color: #374151; }
 .text-blue-700 { color: #1d4ed8; }
+.text-\[\#005b96\] { color: #005b96; }
 
 /* Backgrounds & Borders */
 .bg-white { background-color: #fff; }
