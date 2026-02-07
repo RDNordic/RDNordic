@@ -451,6 +451,7 @@ h3 {
 @media (min-width: 1024px) {
   .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .lg\:grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 }
 
 @media (min-width: 640px) {
@@ -479,6 +480,39 @@ h3 {
     align-items: flex-start;
   }
 
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    padding: 0.15rem 0;
+  }
+
+  .services,
+  .cases,
+  .contact,
+  .why-us-section,
+  .about-me,
+  .ticker-section {
+    padding: 2.3rem 0;
+  }
+
+  .service-card-blue,
+  .service-card-teal,
+  .service-card-purple,
+  .service-card-cyan,
+  .service-card-gradient {
+    padding: 1.2rem;
+  }
+
+  .contact-card,
+  .contact-link {
+    width: 100%;
+  }
+
   .hero {
     min-height: 64vh;
   }
@@ -487,5 +521,99 @@ h3 {
     top: 0.65rem;
     left: 0.65rem;
     width: 72px;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .container {
+    padding: 0 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.65rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+    padding: 0 0.25rem;
+  }
+
+  .ticker-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 0 0.75rem;
+  }
+
+  .navbar {
+    gap: 0.65rem;
+  }
+
+  .nav-links {
+    gap: 0.4rem;
+  }
+
+  .hero {
+    min-height: 58vh;
+  }
+
+  .hero-text h1 {
+    letter-spacing: -0.02em;
+  }
+
+  .services,
+  .cases,
+  .contact,
+  .why-us-section,
+  .about-me,
+  .ticker-section {
+    padding: 2rem 0;
+  }
+
+  .service-card-blue,
+  .service-card-teal,
+  .service-card-purple,
+  .service-card-cyan,
+  .service-card-gradient {
+    padding: 1rem;
+  }
+
+  .service-card-blue h3,
+  .service-card-teal h3,
+  .service-card-purple h3,
+  .service-card-cyan h3,
+  .service-card-gradient h3 {
+    font-size: 1.08rem;
+    line-height: 1.45;
+  }
+
+  .service-card-blue p,
+  .service-card-teal p,
+  .service-card-purple p,
+  .service-card-cyan p,
+  .service-card-gradient p,
+  .service-card-blue li,
+  .service-card-teal li,
+  .service-card-purple li,
+  .service-card-cyan li,
+  .service-card-gradient li {
+    font-size: 0.94rem;
+    line-height: 1.55;
+  }
+
+  .contact-link {
+    padding: 0.8rem 1rem;
   }
 }
