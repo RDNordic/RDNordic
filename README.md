@@ -1,39 +1,41 @@
 # R&D Nordic
 
-Dette repositoriet inneholder koden til nettstedet **R&D Nordic** som hostes via GitHub Pages.
-Her finner du en enkel landingsside med informasjon om tjenestene våre innen forskning,
-utvikling, prosjektledelse og rådgivning.
+Source code for the R&D Nordic website hosted on GitHub Pages.
 
+- Live site: https://rdnordic.com
+- Mission: Nordic consulting in AI, grant funding, project delivery, and data privacy
 
-▶ **Live site:** https://rdnordic.com  
-▶ **Mission:** Nordic-inspired consulting in AI, grant funding, and data privacy.
+## Local Preview
 
-## Forhåndsvis siden lokalt
-
-1. Klon repoet.
-2. Start en enkel HTTP-server i rotkatalogen (krever Python):
+1. Clone this repository.
+2. Start a local HTTP server from the repo root:
 
    ```bash
-   python3 -m http.server
+   python -m http.server 8000
    ```
 
-3. Åpne `http://localhost:8000` i nettleseren for å se siden.
+3. Open `http://localhost:8000`.
 
-## Deploy til GitHub Pages
+## Deployment
 
-Nettsiden bygges direkte fra `main`-grenen.
+The website is published directly from the `main` branch via GitHub Pages.
 
-## Filstruktur
+## Project Structure
 
-```
+```text
 .
-├── CNAME          # Domene som brukes av GitHub Pages
-├── index.html     # Hovedsiden med innhold
-├── style.css      # Stilark for design og layout
-└── images/        # Bilder brukt på nettsiden
-    ├── background.jpg
-    └── logo.webp
+|-- CNAME
+|-- index.html
+|-- privacy.html
+|-- style.css
+|-- services/
+|-- no/
+|   |-- index.html
+|   |-- privacy.html
+|   `-- services/
+`-- images/
 ```
-License
 
-© 2025 R&D Nordic AS. All rights reserved.
+## License
+
+Copyright (c) 2026 R&D Nordic AS. All rights reserved.

@@ -4,8 +4,8 @@
   "description": "R&D Nordic consulting website - static HTML/CSS site with self-hosted dependencies",
   "private": true,
   "scripts": {
-    "serve": "python3 -m http.server 8000",
-    "validate": "echo 'Validating HTML files...' && find . -name '*.html' -not -path './node_modules/*' -type f -print"
+    "serve": "python -m http.server 8000",
+    "validate": "python -c \"import pathlib; print('Validating HTML files...'); [print(str(p)) for p in pathlib.Path('.').rglob('*.html') if p.is_file() and '.git' not in p.parts and 'node_modules' not in p.parts]\""
   },
   "keywords": [
     "consulting",
