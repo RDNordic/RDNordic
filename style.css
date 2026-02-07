@@ -218,6 +218,7 @@ h3 {
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid var(--line);
   border-radius: 1rem;
+  min-width: 0;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
@@ -410,6 +411,8 @@ html[lang="no"] #services li {
 .mt-4 { margin-top: 1rem; }
 .mt-6 { margin-top: 1.5rem; }
 .mt-8 { margin-top: 2rem; }
+.mb-8 { margin-bottom: 2rem; }
+.py-8 { padding-top: 2rem; padding-bottom: 2rem; }
 .mb-2 { margin-bottom: 0.5rem; }
 .mb-4 { margin-bottom: 1rem; }
 .ml-1 { margin-left: 0.25rem; }
