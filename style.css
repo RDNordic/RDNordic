@@ -221,6 +221,13 @@ h3 {
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
+html[lang="no"] #services h3,
+html[lang="no"] #services p,
+html[lang="no"] #services li {
+  hyphens: auto;
+  overflow-wrap: anywhere;
+}
+
 .service-card-blue:hover,
 .service-card-teal:hover,
 .service-card-purple:hover,
