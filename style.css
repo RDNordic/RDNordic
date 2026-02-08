@@ -74,6 +74,51 @@ h3 {
   letter-spacing: -0.01em;
 }
 
+.policy-page {
+  max-width: 840px;
+}
+
+.policy-page h1 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.policy-intro {
+  color: var(--ink-soft);
+  margin-bottom: 1.3rem;
+}
+
+.policy-section {
+  margin-top: 1.45rem;
+}
+
+.policy-section h2 {
+  font-size: clamp(1.35rem, 3.2vw, 1.85rem);
+  line-height: 1.2;
+  margin-bottom: 0.55rem;
+}
+
+.policy-page p,
+.policy-page li {
+  color: var(--ink-soft);
+}
+
+.policy-page p + p,
+.policy-page ul + p {
+  margin-top: 0.7rem;
+}
+
+.policy-page ul {
+  padding-left: 1.25rem;
+  margin-top: 0.4rem;
+}
+
+.policy-page li + li {
+  margin-top: 0.45rem;
+}
+
 .container {
   max-width: 1120px;
   margin: 0 auto;
@@ -550,6 +595,14 @@ html[lang="no"] #services li {
 
   h3 {
     font-size: 1.2rem;
+  }
+
+  .policy-section {
+    margin-top: 1.2rem;
+  }
+
+  .policy-section h2 {
+    margin-bottom: 0.45rem;
   }
 
   .hero-text p {
