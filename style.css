@@ -431,6 +431,13 @@ html[lang="no"] #services li {
   color: #475569;
 }
 
+.legal-identity {
+  font-size: 0.72rem;
+  line-height: 1.35;
+  opacity: 0.75;
+  margin-top: 0.2rem;
+}
+
 /* Utility classes used by HTML */
 .flex { display: flex; }
 .inline-flex { display: inline-flex; }
