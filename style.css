@@ -427,15 +427,75 @@ html[lang="no"] #services li {
 
 .site-footer {
   border-top: 1px solid var(--line);
-  padding: 1.2rem 0;
+  padding: 2rem 0 1rem;
   color: #475569;
 }
 
-.legal-identity {
-  font-size: 0.72rem;
+.footer-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1.4rem;
+  align-items: start;
+}
+
+.footer-logo {
+  width: 72px;
+  height: auto;
+  margin-bottom: 0.6rem;
+}
+
+.footer-brand p {
+  margin-bottom: 0.2rem;
+}
+
+.footer-tagline {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  max-width: 48ch;
+  margin-bottom: 0.5rem;
+}
+
+.footer-legal-line {
+  font-size: 0.74rem;
   line-height: 1.35;
-  opacity: 0.75;
+  opacity: 0.88;
+}
+
+.footer-links-group h3 {
+  font-size: 0.86rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: 0.45rem;
+}
+
+.footer-links-group ul {
+  list-style: none;
+}
+
+.footer-links-group li + li {
   margin-top: 0.2rem;
+}
+
+.footer-links-group a,
+.footer-brand a {
+  color: #475569;
+  text-decoration: none;
+}
+
+.footer-links-group a:hover,
+.footer-brand a:hover {
+  color: var(--brand);
+}
+
+.footer-copyright {
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.75rem;
+  text-align: center;
+  opacity: 0.85;
 }
 
 /* Utility classes used by HTML */
@@ -583,6 +643,15 @@ html[lang="no"] #services li {
     top: 0.65rem;
     left: 0.65rem;
     width: 72px;
+  }
+
+  .footer-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .footer-copyright {
+    text-align: left;
   }
 }
 
