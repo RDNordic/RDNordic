@@ -1,41 +1,25 @@
-# R&D Nordic
+# Hi, I'm Andrew
 
-Source code for the R&D Nordic website hosted on GitHub Pages.
+R&D advisor at [R&D Nordic](https://rdnordic.com), based in Norway.
 
-- Live site: https://rdnordic.com
-- Mission: Nordic consulting in AI, grant funding, project delivery, and data privacy
+I work in the bits most people try to avoid: **privacy, research ethics, AI, and organisational behavioural management**. My job is helping organisations move from policy intent to practical, defensible implementation — without panic, paralysis, or magical thinking.
 
-## Local Preview
+## What I do
 
-1. Clone this repository.
-2. Start a local HTTP server from the repo root:
+**GDPR & EU AI Act** — Translating rules into decisions, controls, and documentation that stand up when someone asks awkward questions.
 
-   ```bash
-   python -m http.server 8000
-   ```
+**AI systems that actually work** — Retrieval-augmented systems, evaluation frameworks, automation pipelines, and agent-style workflows, with privacy, IP, RoPA, and risk management designed in from day one (not bolted on five minutes before the auditor arrives).
 
-3. Open `http://localhost:8000`.
+**Grant development** — Partnership building, grant scanning, budgeting, and proposal work across the Norwegian Research Council, Horizon Europe, Erasmus+, and more.
 
-## Deployment
+**Training & adoption** — Project management, leadership, communication, and how behavioural science and Organisational Behavioural Management can make adoption real rather than turning governance into theatre.
 
-The website is published directly from the `main` branch via GitHub Pages.
+## Background
 
-## Project Structure
+Higher education, health, public administration, and the cultural and creative sectors in Norway and the UK. I'm especially interested in how we get people to actually change what they do — not just nod along in the workshop and go back to business as usual.
 
-```text
-.
-|-- CNAME
-|-- index.html
-|-- privacy.html
-|-- style.css
-|-- services/
-|-- no/
-|   |-- index.html
-|   |-- privacy.html
-|   `-- services/
-`-- images/
-```
+## Get in touch
 
-## License
-
-Copyright (c) 2026 R&D Nordic AS. All rights reserved.
+- [rdnordic.com](https://rdnordic.com)
+- [LinkedIn](https://www.linkedin.com/company/rdnordic)
+- adnordic@proton.me
