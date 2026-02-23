@@ -2,7 +2,7 @@
 
 R&D advisor at [R&D Nordic](https://rdnordic.com), based in Norway.
 
-I work in the bits most people try to avoid: **privacy, research ethics, AI, and organisational behavioural management**. My job is helping organisations move from policy intent to practical, defensible implementation — without panic, paralysis, or magical thinking.
+I work in the bits most people try to avoid: **privacy, research ethics, AI, and organisational behavioural management**. My job is helping organisations move from policy intent to practical, defensible implementation, without panic, paralysis, or magical thinking.
 
 ## What I do
 
@@ -16,7 +16,7 @@ I work in the bits most people try to avoid: **privacy, research ethics, AI, and
 
 ## Background
 
-Higher education, health, public administration, and the cultural and creative sectors in Norway and the UK. I'm especially interested in how we get people to actually change what they do — not just nod along in the workshop and go back to business as usual.
+Higher education, health, public administration, and the cultural and creative sectors in Norway and the UK. I'm especially interested in how we get people to actually change what they do, not just nod along in the workshop and go back to business as usual.
 
 ## Get in touch
 
