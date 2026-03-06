@@ -653,6 +653,7 @@ html[lang="no"] #services li {
 
   .nav-links.open {
     display: flex;
+    order: 4;
   }
 
   .nav-links a {
