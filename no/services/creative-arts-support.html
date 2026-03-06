@@ -14,6 +14,7 @@
     <header class="site-header">
         <nav class="navbar container">
             <a class="logo" href="/no/index.html#hero">R&amp;D Nordic</a>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
             <ul class="nav-links">
                 <li><a href="/no/index.html#hero">Hjem</a></li>
                 <li><a href="/no/index.html#services">Hva vi gj&oslash;r</a></li>
@@ -76,5 +77,6 @@
         </div>
         <p class="footer-copyright">&copy; 2026 R&amp;D Nordic. Alle rettigheter forbeholdt.</p>
     </footer>
+<script>document.querySelector(".nav-toggle").addEventListener("click",function(){this.classList.toggle("open");document.querySelector(".nav-links").classList.toggle("open")});</script>
 </body>
 </html>
