@@ -6,13 +6,13 @@ I work in the bits most people try to avoid: **privacy, research ethics, AI, and
 
 ## What I do
 
-**GDPR & EU AI Act** — Translating rules into decisions, controls, and documentation that stand up when someone asks awkward questions.
+**GDPR & EU AI Act**: Translating rules into decisions, controls, and documentation that stand up when someone asks awkward questions.
 
-**AI systems that actually work** — Retrieval-augmented systems, evaluation frameworks, automation pipelines, and agent-style workflows, with privacy, IP, RoPA, and risk management designed in from day one (not bolted on five minutes before the auditor arrives).
+**AI systems that actually work**: Retrieval-augmented systems, evaluation frameworks, automation pipelines, and agent-style workflows, with privacy, IP, RoPA, and risk management designed in from day one (not bolted on five minutes before the auditor arrives).
 
-**Grant development** — Partnership building, grant scanning, budgeting, and proposal work across the Norwegian Research Council, Horizon Europe, Erasmus+, and more.
+**Grant development**: Partnership building, grant scanning, budgeting, and proposal work across the Norwegian Research Council, Horizon Europe, Erasmus+, and more.
 
-**Training & adoption** — Project management, leadership, communication, and how behavioural science and Organisational Behavioural Management can make adoption real rather than turning governance into theatre.
+**Training & adoption**: Project management, leadership, communication, and how behavioural science and Organisational Behavioural Management can make adoption real rather than turning governance into theatre.
 
 ## Background
 
