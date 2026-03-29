@@ -6,6 +6,9 @@
     <title>R&D Nordic | AI, Personvern og Forskningsfinansiering</title>
     <meta name="description" content="Transformer organisasjonen din med etisk AI, GDPR-overholdelse og tilskuddskompetanse. Betrodd av kreative næringer, forsvar, helsevesen og akademia.">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🔬</text></svg>">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()">
     <link rel="stylesheet" href="/style.css">
     <link rel="alternate" hreflang="en" href="https://rdnordic.com/">
     <link rel="alternate" hreflang="no" href="https://rdnordic.com/no/">
@@ -15,7 +18,7 @@
     <header class="site-header">
         <nav class="navbar container">
             <a class="logo" href="#hero">R&D Nordic</a>
-            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
             <ul class="nav-links">
                 <li><a href="#hero">Hjem</a></li>
                 <li><a href="#services">Hva vi gjør</a></li>
@@ -261,14 +264,6 @@
         </div>
         <p class="footer-copyright">&copy; 2026 R&amp;D Nordic. Alle rettigheter forbeholdt.</p>
     </footer>
-<script>document.querySelector(".nav-toggle").addEventListener("click",function(){this.classList.toggle("open");document.querySelector(".nav-links").classList.toggle("open")});</script>
-<script>
-document.addEventListener('DOMContentLoaded',function(){
-  var obs=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})
-  },{threshold:0.15});
-  document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el)})
-});
-</script>
+<script src="/site.js" defer></script>
 </body>
 </html>

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prosjektledelse | R&amp;D Nordic</title>
     <meta name="description" content="Strukturert prosjektledelse som holder milepæler, risiko og team på rett kurs.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()">
     <link rel="stylesheet" href="/style.css">
     <link rel="alternate" hreflang="en" href="https://rdnordic.com/services/project-management.html">
     <link rel="alternate" hreflang="no" href="https://rdnordic.com/no/services/project-management.html">
@@ -14,7 +17,7 @@
     <header class="site-header">
         <nav class="navbar container">
             <a class="logo" href="/no/index.html#hero">R&amp;D Nordic</a>
-            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
             <ul class="nav-links">
                 <li><a href="/no/index.html#hero">Hjem</a></li>
                 <li><a href="/no/index.html#services">Hva vi gjør</a></li>
@@ -77,6 +80,6 @@
         </div>
         <p class="footer-copyright">&copy; 2026 R&amp;D Nordic. Alle rettigheter forbeholdt.</p>
     </footer>
-<script>document.querySelector(".nav-toggle").addEventListener("click",function(){this.classList.toggle("open");document.querySelector(".nav-links").classList.toggle("open")});</script>
+<script src="/site.js" defer></script>
 </body>
 </html>
