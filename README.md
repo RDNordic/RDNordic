@@ -1,4 +1,27 @@
-# R&D Nordic Website Offer
+# Hi, I'm Andrew
+
+R&D advisor at [R&D Nordic](https://rdnordic.com), based in Norway.
+
+I work at the point where organisations usually get stuck: privacy, research ethics, AI adoption, and the practical reality of changing how people work. My focus is turning policy intent into usable systems, clearer decisions, and delivery that can stand up to scrutiny.
+
+I spend most of my time helping teams use AI in ways that are useful, defensible, and operationally realistic. That includes governance, workflow design, training, automation support, and the behavioural side of adoption so change does not stop at the workshop.
+
+I work with higher education, healthcare, public sector, and creative or research-intensive environments in Norway and the UK, and I am open to collaboration internationally.
+
+## What I do
+
+- GDPR, EU AI Act, and governance support that helps organisations prepare, document decisions, and reduce avoidable risk
+- AI systems and workflows that actually work in practice, including retrieval, agent workflows, automation pipelines, and structured ways of working in tools like Claude and Codex
+- Grant and research development across funding calls, partnerships, budgets, and proposal support
+- Training, leadership support, communication, and adoption work that helps teams use new tools with more confidence and consistency
+
+## Get in touch
+
+- [rdnordic.com](https://rdnordic.com)
+- [LinkedIn](https://www.linkedin.com/company/rdnordic)
+- `contact@rdnordic.com`
+
+## Repo purpose
 
 This repository contains the working materials for a modular service menu for R&D Nordic.
 
