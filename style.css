@@ -592,6 +592,23 @@ html[lang="no"] #services li {
   display: inline-block;
 }
 
+.ticker-item-logo {
+  background: rgba(248, 250, 252, 0.94);
+  border-color: rgba(226, 232, 240, 0.8);
+  color: #0f172a;
+}
+
+.ticker-logo-img {
+  width: auto;
+  height: 24px;
+  max-width: 112px;
+  object-fit: contain;
+}
+
+.ticker-logo-img-compact {
+  width: 32px;
+}
+
 @keyframes ticker-scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
