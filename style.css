@@ -615,13 +615,13 @@ html[lang="no"] #services li {
 
 .ticker-logo-img {
   width: auto;
-  height: 24px;
-  max-width: 112px;
+  height: 28px;
+  max-width: 150px;
   object-fit: contain;
 }
 
 .ticker-logo-img-compact {
-  width: 32px;
+  width: 38px;
 }
 
 @keyframes ticker-scroll {
