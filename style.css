@@ -624,6 +624,10 @@ html[lang="no"] #services li {
   width: 38px;
 }
 
+.ticker-logo-img-wide {
+  max-width: 132px;
+}
+
 @keyframes ticker-scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
