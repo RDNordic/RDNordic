@@ -510,7 +510,22 @@ html[lang="no"] #services h3,
 html[lang="no"] #services p,
 html[lang="no"] #services li {
   hyphens: auto;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+@media (min-width: 1100px) {
+  .services-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .services-grid > a {
+    grid-column: span 2;
+  }
+
+  .services-grid > a:nth-child(n + 4) {
+    grid-column: span 3;
+  }
 }
 
 .service-card-blue:hover,
