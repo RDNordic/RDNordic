@@ -526,6 +526,10 @@ html[lang="no"] #services li {
   .services-grid > a:nth-child(n + 4) {
     grid-column: span 3;
   }
+
+  .services-grid-six > a:nth-child(n + 4) {
+    grid-column: span 2;
+  }
 }
 
 .service-card-blue:hover,

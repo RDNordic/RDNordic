@@ -16,6 +16,7 @@ This file is the internal reference map for delivery planning and future automat
 | M10_AIACT | EU AI Act and Responsible Use Readiness | Build practical readiness for AI governance expectations and internal oversight. | Responsible AI Governance | governance |
 | M11_DOCSET | DPIA, DPA, ROPA and Documentation Support | Strengthen the supporting governance artefacts around AI-related projects and workflows. | Documentation and Assurance | governance |
 | M12_EXECALIGN | Executive Alignment and Adoption Strategy | Help leaders align use cases, risk appetite, capability building, and organisational direction. | Leadership and Adoption | consulting |
+| M13_AIPRODREVIEW | AI Product & Vibe-Code Review | Review AI-built or AI-assisted digital materials for clarity, trust, privacy, source grounding, resilience, governance gaps, and launch readiness. | Review and Assurance | review |
 
 ## Suggested parsing format
 

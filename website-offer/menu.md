@@ -91,3 +91,14 @@ Promise: Give decision-makers a clearer basis for choosing where AI should help,
 What it covers: This module focuses on leadership choices: priority setting, use-case selection, adoption risks, capability expectations, assurance questions, and how to align operational teams with management without creating a gap between ambition and delivery.
 
 Who it is for: Senior leaders, programme owners, and managers responsible for AI direction and organisational uptake.
+
+## Review and Assurance
+
+### 13. AI Product & Vibe-Code Review
+Promise: Provide a sober, evidence-based review of AI-built, AI-assisted, vibe-coded, or rapidly prototyped digital materials before wider use or launch.
+
+What it covers: This module reviews apps, websites, chatbots, forms, reports, internal tools, public-facing services, AI assistants, and digital workflows. Checks may cover UX clarity, misleading claims, source accuracy, legal and compliance caveats, privacy and data minimisation, accessibility basics, security red flags, governance gaps, GDPR and EU AI Act compliance readiness considerations, and launch readiness. For chatbots and assistants, scoped LLM resilience testing can cover prompt-injection resistance, hallucination and source grounding, unsafe advice boundaries, privacy and sensitive-data handling, overconfident legal or compliance claims, refusal and escalation behaviour, consistency, and handling of long, malformed, hostile, or ambiguous prompts.
+
+Who it is for: Businesses and organisations that want a concise report with prioritised findings, practical next steps in human and LLM usable formats, optional retest, and human consultant follow-up before launch or wider rollout.
+
+Boundary: This is not certification, legal advice, a guarantee of compliance, high-volume load testing, endpoint probing, model extraction, provider probing, credential or admin testing, invasive security testing, or penetration testing unless separately agreed and authorised.
