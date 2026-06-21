@@ -2,7 +2,8 @@
 
 R&D advisor at [R&D Nordic](https://rdnordic.com), based in Norway.
 
-I work at the point where organisations usually get stuck: privacy, research ethics, AI adoption, and the practical reality of changing how people work. My focus is turning policy intent into usable systems, clearer decisions, and delivery that can stand up to scrutiny.
+I work at the point where organisations usually get stuck: privacy, research ethics, IPR, AI adoption, and the practical reality of changing how people actually work. 
+I try to help people turn policy intent into usable systems, clearer decisions, and delivery that can stand up to scrutiny. To achieve this, I focus on what we have to do (not what we say).
 
 I spend most of my time helping teams use AI in ways that are useful, defensible, and operationally realistic. That includes governance, workflow design, training, automation support, and the behavioural side of adoption so change does not stop at the workshop.
 
@@ -11,7 +12,7 @@ I work with higher education, healthcare, public sector, and creative or researc
 ## What I do
 
 - GDPR, EU AI Act, and governance support that helps organisations prepare, document decisions, and reduce avoidable risk
-- AI systems and workflows that actually work in practice, including retrieval, agent workflows, automation pipelines, and structured ways of working in tools like Claude and Codex
+- AI systems and workflows that work in practice, including retrieval, agent workflows, automation pipelines, and structured ways of working in tools like Claude/Codex. I also really enjoy helping people set up privacy solutions, local host, models etc.
 - Grant and research development across funding calls, partnerships, budgets, and proposal support
 - Training, leadership support, communication, and adoption work that helps teams use new tools with more confidence and consistency
 
