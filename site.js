@@ -1,3 +1,9 @@
+// Progressive enhancement: flag that JS is active. Scroll-reveal elements are
+// only hidden when this class is present (see `.js .reveal` in style.css), so
+// with JS disabled or blocked the full page renders normally instead of blank.
+// Runs at top level under `defer`, before first paint, to avoid any flash.
+document.documentElement.classList.add("js");
+
 document.addEventListener("DOMContentLoaded", function () {
   var navToggle = document.querySelector(".nav-toggle");
   var navLinks = document.querySelector(".nav-links");
