@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Disclosure Ladder: What Does an AI Service Really Need to Know? | R&amp;D Nordic</title>
+    <meta name="description" content="A practical way to ask how much identity data an AI service, platform, or institution really needs before escalating to stronger checks.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🔬</text></svg>">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="alternate" hreflang="en" href="https://rdnordic.com/blog/the-disclosure-ladder.html">
+    <link rel="alternate" hreflang="no" href="https://rdnordic.com/no/blog/the-disclosure-ladder.html">
+    <link rel="alternate" hreflang="x-default" href="https://rdnordic.com/blog/the-disclosure-ladder.html">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a class="logo" href="/index.html#hero">R&amp;D Nordic</a>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="/index.html#hero">Home</a></li>
+                <li><a href="/index.html#services">What We Do</a></li>
+                <li><a href="/index.html#why-us">Why Us</a></li>
+                <li><a href="/services/ai-services-menu.html">AI Services</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/index.html#cases">Cases</a></li>
+                <li><a href="/index.html#contact">Contact</a></li>
+            </ul>
+            <span class="ml-4 text-sm">
+                <a href="/blog/the-disclosure-ladder.html" aria-current="page" class="font-semibold">EN</a>
+                <span class="mx-1">|</span>
+                <a href="/no/blog/the-disclosure-ladder.html">NO</a>
+            </span>
+        </nav>
+    </header>
+
+    <main class="container py-8 blog-post">
+        <a class="post-back" href="/blog/">&larr; All posts</a>
+
+        <article>
+            <p class="post-eyebrow">Identity Assurance</p>
+            <h1>The Disclosure Ladder: What Does an AI Service Really Need to Know?</h1>
+            <p class="post-lede">Before an AI service asks for more identity, the better question is not whether it can verify a person. It is what property the system actually needs to know.</p>
+
+            <div class="post-byline">
+                <img src="../images/Headshot-color.png" alt="Andrew Davidson">
+                <div>
+                    <div class="byline-name">Andrew Davidson</div>
+                    <div class="byline-meta">R&D Nordic &middot; July 8, 2026 &middot; 14 min read</div>
+                </div>
+            </div>
+
+            <div class="post-body">
+                <p>A service asks you to verify yourself.</p>
+                <p>Maybe it is an AI tool trying to prevent abuse. Maybe it is a platform checking whether you are old enough to use a feature. Maybe it is a workplace system, a financial service, a school portal, or a public-sector form. The wording is usually calm and procedural; verify your identity, confirm your age, prove you are human, continue securely, and so on.</p>
+                <p>The useful thing you want is on the other side of that check.</p>
+                <p>At that moment, the request can feel like a small administrative step. You want access, and the system has placed access behind an annoying gate. The immediate consequence of compliance is clear: the page opens, the account works, the task continues. The future consequences are harder to see. Where will the data go? How long will it be kept? What else can be inferred from the data? Can the verification be reused elsewhere? Who can challenge an error? What happens if the system, issuer, wallet, vendor, or database is compromised later? How will this affect me, or my family, or my work?</p>
+                <p>Those questions are often too large for the moment in which the choice is made. That is why identity assurance needs a better public vocabulary.</p>
+                <p>One useful way to think about it is a disclosure ladder.</p>
+                <p>The disclosure ladder is not a formal legal term. It is a practical way of asking how much personal information a system demands as the price of trust. At the bottom of the ladder, the service may need little or no personal information. A local check, a device-level proof, a payment token, or an anonymous credential might be enough. Higher up the ladder, the service asks for a verified email address, phone number, age attribute, government ID, selfie, biometric match, liveness check, or persistent account tied to a real-world identity. In more extreme cases, such as those related to getting a passport or international travel, fingerprints or DNA may also be collected.</p>
+                <p>The point is not that every higher step is automatically illegitimate. Some situations really do require stronger assurance. A bank, a benefits system, an educational exam platform, a high-risk workplace tool, and a child-safety service do not all face the same problem. The point is that each step up the ladder should need a reason. Or specifically, a legitimate reason.</p>
+                <p>Before asking for more identity, the system should answer a narrower question: what property do we actually need to know?</p>
+                <h2>Identity is not one question</h2>
+                <p>Part of the problem is that "identity verification" sounds like one task, a quick check before you move on. It is not.</p>
+                <p>An online service may want to know whether a person is over a certain age. That is an age question. It may want to know whether the same person is returning to an account. That is a continuity question. It may want to know whether one person is creating thousands of accounts. That is an abuse-resistance question. It may want to know whether a clinician, teacher, student, public employee, or contractor has a valid role. That is an authorisation question. It may want to know whether a person is globally unique across all services. That is a much stronger, and much more dangerous question.</p>
+                <p>These questions are often bundled together because stronger identity checks are administratively convenient. A passport scan plus selfie may answer several questions at once. It can support age checks, fraud review, account recovery, audit trails, and enforcement. From the organisation's perspective, the stronger check can look efficient.</p>
+                <p>But efficient for whom?</p>
+                <p>For the user, the bundle may mean giving away more information than the decision required. For the organisation, it may mean holding data that creates new security duties and new failure modes. For society, it may normalise the idea that access to ordinary digital life requires identification by default.</p>
+                <p>That is the governance problem. If a service only needs to know that someone is over 18, it does not automatically need to know their name, address, document number, face, and wider identity history. If a service needs to limit repeat abuse, it does not automatically need a permanent cross-service identifier. If a service needs to know that a credential is valid, it does not automatically need a central database of every occasion on which the credential was shown.</p>
+                <p>A narrow decision should not quietly become a broad identity collection system.</p>
+                <h2>The behavioural problem</h2>
+                <p>My previous privacy essay, <a href="/blog/why-privacy-choices-are-harder-than-they-look.html">Why Privacy Choices Are Harder Than They Look</a>, argued that privacy choices are often arranged so that disclosure is immediate, easy, and rewarded, while privacy harms are delayed, uncertain, and difficult to picture. Identity assurance has the same structure but the stakes are higher.</p>
+                <p>The person standing at the gate trying to get in is not usually choosing between two equally visible options. They are choosing between access now, or an uncertain risk later. If they comply, the task continues. If they refuse, they may lose access to the service, miss the conversation, fail to complete an important form, be excluded from a workflow, or spend time searching for an alternative that ultimately may not exist.</p>
+                <p>From a behavioural analysis perspective this distinction is important, because the system has arranged a consequence. Disclosure produces immediate access. Refusal produces friction. Over repeated interactions, that arrangement can select for compliance, even when the person has real privacy concerns.</p>
+                <p>This does not mean people are helpless, but it does mean that "the user consented" is an insufficient justification on its own. A click, scan, or upload records that a response occurred. It does not prove that the person understood the future uses of the data, had a meaningful alternative, or evaluated the wider identity architecture.</p>
+                <p>The same behavioural lens applies to organisations.</p>
+                <p>Organisations also act inside consequence arrangements. A stronger identity check can reduce some immediate risks. It may reassure investors, boards, regulators, advertisers, insurers, or procurement teams. It can create visible evidence that something was done about abuse, fraud, bots, children, safety, or compliance. Those consequences are concrete and near in time.</p>
+                <p>The costs are often more distributed. Over-collection of identifiable data may significantly increase the impact of a data breach. Biometric or document-based onboarding may exclude people who lack the right documents, devices, language, confidence, or time. Centralised identity records may create future misuse risks. But those consequences can be delayed, externalised, or hard to attribute to the original design decision.</p>
+                <p>That is how systems drift up the ladder; not necessarily through bad intent, but through ordinary, observable selection pressures.</p>
+                <p>Here, I am using "selection pressures" in the sense developed by Sandaker's selectionist perspective on organisational change. The useful unit of analysis is the relation between a practice and the consequences that make that practice more or less likely to recur within the system. In an identity-assurance workflow, those consequences are concrete enough to inspect: procurement criteria, risk registers, board reporting, audit evidence, vendor claims, incident-response incentives, user drop-off metrics, liability fears and more.</p>
+                <p>If those mechanisms reward fast deployment and visible risk control more than minimisation, reversibility, contestability, and non-exclusion, the direction of travel is predictable. A higher-disclosure check will tend to be repeated because it solves several visible institutional problems at once. A lower-disclosure design may better fit privacy and proportionality, but it requires more careful thinking, better architecture, narrower purpose definition, harder procurement conversations and, in short, more time, money, and effort. The system can therefore select the intrusive practice even while privacy-by-design remains part of the formal language.</p>
+                <h2>Privacy-preserving assurance is not magic</h2>
+                <p>There are better technical patterns than simply collecting more identity data.</p>
+                <p>A system can sometimes verify a property, rather than an identity. It may be enough to know that a person is over a threshold age, holds valid credentials, controls a previous account, or has passed a check, without revealing all the underlying documents every time. Privacy-preserving credentials, wallet-based proofs, selective disclosure, revocation checks, and local or mediated verification can all be part of that conversation.</p>
+                <p>These ideas matter because they change the question. Instead of asking, "How do we identify the user?", the design question becomes: what claim does the relying service need, who can issue it, how can it be checked, and what does the service learn in the process?</p>
+                <p>But privacy-preserving assurance does not eliminate trust. It moves it. The user may still need to trust an issuer. The relying service may need to trust a credential format, wallet, revocation mechanism, device, audit process, or governance scheme. Someone must decide who is allowed to issue credentials, how errors are corrected, how fraud is handled, how compromised credentials are revoked, and how people are protected when they cannot or do not want to use the preferred method.</p>
+                <p>That is why the disclosure ladder is useful. It keeps the technical excitement tied to the functional question. A privacy-preserving age proof may be much better than repeated document upload for a simple age gate, but it may not be enough for every high-risk transaction. A reusable credential may reduce repeated disclosure, but it may also create new dependencies and new patterns of exclusion if it becomes the only acceptable route.</p>
+                <p>The task is not to romanticise any technology, including AI. The task is to ask what behaviour and institutional practice the system will actually select. Will it make minimal disclosure easy? Will it make refusal meaningful? Will it make errors contestable? Will it discourage unnecessary collection? Will it prevent one narrow check from becoming a general-purpose identity infrastructure?</p>
+                <h2>What the ladder should ask</h2>
+                <p>A disclosure ladder turns identity assurance into a sequence of questions.</p>
+                <p>First, what is the actual decision? Is the system deciding access, age, account recovery, professional eligibility, payment risk, abuse prevention, exam integrity, or legal compliance? If the decision is vague, the data request will usually expand.</p>
+                <p>Second, what property is needed for that decision? Over 13, over 16, or over 18 is different from receiving a full date of birth or social security number. Credential valid is different from credential history. Same account holder is different from legal identity. Human enough for this interaction is different from globally unique personhood.</p>
+                <p>Third, what is the least revealing way to establish that property? The answer may be a local check, a one-time attribute proof, a trusted issuer, a risk-based step-up, a human review process, a pseudonymous reputation signal, or no identity check at all.</p>
+                <p>Fourth, what happens to people who refuse, fail, or cannot complete the check? A privacy option that exists only for highly informed, well-resourced, technically confident users is not a fair alternative. If refusal means exclusion from ordinary participation, then consent is carrying too much moral weight.</p>
+                <p>Fifth, what data is retained, by whom, and for how long? A check that verifies a property in the moment is different from one that creates a durable record. The difference matters especially when documents, faces, behavioural signals, or device identifiers are involved.</p>
+                <p>Sixth, what behaviour is the system likely to reinforce over time? If every service asks for stronger identity, users learn that disclosure is the routine price of participation. If procurement rewards vendors for maximum risk reduction but does not test minimisation, vendors learn to climb the ladder. If regulators and boards ask only whether a control exists, institutions learn to implement visible controls rather than proportionate ones.</p>
+                <p>These are not abstract questions. They belong in data protection impact assessments, fundamental rights impact assessments, procurement templates, AI governance reviews, age-assurance debates, workplace AI assessments, and platform trust-and-safety design.</p>
+                <h2>A practical example: age assurance</h2>
+                <p>Age assurance is a good test case because the underlying concern can be real. Children and young people do need protection in digital environments. Platforms and AI services may face legal, ethical, and reputational duties. It would be too simple to say that every age check is surveillance by another name.</p>
+                <p>But it would also be too simple to treat any age check as justified because the word "safety" appears nearby.</p>
+                <p>The disclosure ladder asks: what age property is needed, for which feature, at which level of risk, and with what alternative path?</p>
+                <p>A low-risk feature may need no age check. A higher-risk feature may need an age band. A regulated service may need stronger assurance. Some situations may justify step-up checks only if risk signals appear. Others may require a trusted third party. The answer should depend on purpose and proportionality, not on the convenience of collecting a document and face scan once and using that as a universal answer.</p>
+                <p>A behavioural view also asks what the design will teach. If teenagers, parents, and adults repeatedly learn that every online safety concern is solved by document upload or biometric verification, then society may normalise a very heavy form of digital participation that ultimately places an unacceptable risk on the children themselves. If, instead, services learn to ask for narrow proofs and justify escalation, a different practice can be selected.</p>
+                <p>That distinction matters for AI services because the pressure to verify is likely to grow. Concerns about bots, synthetic media, fraud, child safety, copyright, harassment, market manipulation, and political influence will all create demand for stronger assurance. Some of that demand will be legitimate. Some will be opportunistic, and much of it will be messy.</p>
+                <p>The public debate needs a way to say: yes, this problem may require assurance, but no, that does not automatically justify the highest-disclosure method.</p>
+                <h2>The governance implication</h2>
+                <p>Good identity governance should make escalation visible.</p>
+                <p>A service should be able to explain why it is on a particular step of the ladder. It should explain why a lower-disclosure method is insufficient. It should identify who receives the data, what is retained, how long it is kept, what happens after failure, and how errors are corrected. It should test not only whether people click through the process, but whether the process excludes, pressures, or trains behaviour in ways the organisation would not defend openly.</p>
+                <p>This is where behavioural analysis helps. It keeps the focus on observable arrangements rather than reassuring labels. "Consent", "trust", "safety", "assurance", and "responsible AI" are useful words, but they do not explain anything by themselves. The explanation begins when we ask what the system makes easy, hard, visible, hidden, immediate, delayed, rewarded, punished, and practically unavoidable.</p>
+                <p>For AI-era services, that question is becoming urgent. Identity will be used to manage abuse, protect children, allocate access, enforce law, verify credentials, prevent fraud, personalise systems, and decide who is accountable for what. If the default answer becomes more collection, more centralisation, and more biometric verification, we may solve some immediate problems, while building a deeper infrastructure of dependency and exposure.</p>
+                <p>The alternative is not naive anonymity everywhere. The alternative is proportional assurance.</p>
+                <p>Ask for the property, not the person, where that is enough. Escalate only when the risk justifies it. Keep lower-disclosure routes operationalised and real, not decorative. Make organisational incentives visible. Treat refusal, failure, and exclusion as design outcomes and not edge cases. Measure whether the system protects people in practice, not only whether it produces a compliance artefact.</p>
+                <p>The first privacy article ended with a simple idea: if disclosure is the path of least resistance, we should not be surprised when people disclose.</p>
+                <p>The disclosure ladder adds the next question.</p>
+                <p>Before we ask people to climb, who decided how high the ladder needs to be? Who holds the data at the top, what are they doing with it, and why does access to a low-step service require a high-step verification?</p>
+                <h2>Disclosure</h2>
+                <p>This essay was drafted with AI assistance under my direction and edited for argument, tone, and accuracy before publication. I used AI to draw on sources associated with my master's in behavioural science, articles I have written as part of my work at a Norwegian university, and material from R&amp;D Nordic in order to clarify my points and translate some complex behavioural science taxonomy into everyday language. R&amp;D Nordic advises on privacy, ethics, IPR, and AI governance; this essay is published as general analysis and reflects my personal opinions. It is not legal advice.</p>
+                <h2>Sources</h2>
+                <ul><li>Davidson, A. (2026). <a href="/blog/why-privacy-choices-are-harder-than-they-look.html">Why Privacy Choices Are Harder Than They Look</a>.</li><li>European Parliament and Council. <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng">Regulation (EU) 2016/679, General Data Protection Regulation</a>, especially Article 5(1)(c) on data minimisation and Article 9 on special categories including biometric data used for unique identification.</li><li>European Parliament and Council. <a href="https://eur-lex.europa.eu/eli/reg/2024/1183/oj/eng">Regulation (EU) 2024/1183 establishing the European Digital Identity Framework</a>, including the selective-disclosure framing for the European Digital Identity Wallet.</li><li>European Commission. <a href="https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation">EU Digital Identity Wallet pilot implementation</a>.</li><li>Sandaker, I. (2009). <a href="https://doi.org/10.1080/01608060903092128">A Selectionist Perspective on Systemic and Behavioral Change in Organizations</a>. <em>Journal of Organizational Behavior Management</em>, 29(3-4), 276-293.</li></ul>
+            </div>
+
+            <div class="post-share">
+                <span class="share-label">Found this useful?</span>
+                <a href="mailto:?subject=The%20Disclosure%20Ladder%3A%20What%20Does%20an%20AI%20Service%20Really%20Need%20to%20Know%3F&amp;body=Thought%20you%20might%20find%20this%20useful%3A%20https%3A//rdnordic.com/blog/the-disclosure-ladder.html">Share by email</a>
+                <a href="mailto:contact@rdnordic.com?subject=Governance%20readiness%20review">Talk to us</a>
+            </div>
+
+            <div class="post-tags">
+                <span class="post-tag">Privacy</span>
+                <span class="post-tag">Identity assurance</span>
+                <span class="post-tag">AI governance</span>
+            </div>
+
+            <aside class="post-author">
+                <img src="../images/Headshot-color.png" alt="Andrew Davidson">
+                <div>
+                    <p class="author-name">Andrew Davidson</p>
+                    <p class="author-bio">Andrew Davidson is the founder of R&D Nordic, working across AI governance, privacy, research ethics, and practical technology adoption.</p>
+                </div>
+            </aside>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-layout">
+            <div class="footer-brand">
+                <img src="../images/rndnordiclogo.png" alt="R&amp;D Nordic logo" class="footer-logo">
+                <p class="footer-tagline">Professional consulting company with sharp, cross-disciplinary expertise in AI, privacy, and research delivery.</p>
+                <p class="footer-legal-line">DAVIDSON NORDIC R&amp;D</p>
+                <p class="footer-legal-line">Org.nr 927 071 444</p>
+                <p class="footer-legal-line">Hamar, Norway</p>
+                <p><a href="mailto:contact@rdnordic.com">contact@rdnordic.com</a></p>
+            </div>
+            <div class="footer-links-group">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="/index.html#about">Team</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-group">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="/faq.html">FAQ</a></li>
+                    <li><a href="/services/ai-services-menu.html">AI Services Menu</a></li>
+                    <li><a href="/services/ai-product-vibe-code-review.html">AI Product & Vibe-Code Review</a></li>
+                    <li><a href="/index.html#contact">Contact</a></li>
+                    <li><a href="mailto:contact@rdnordic.com">Email Us</a></li>
+                    <li><a href="/privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copyright">&copy; 2026 R&amp;D Nordic. All rights reserved.</p>
+    </footer>
+<script src="../site.js" defer></script>
+</body>
+</html>
