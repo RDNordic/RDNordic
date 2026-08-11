@@ -1,57 +1,79 @@
 # Hi, I'm Andrew
 
-R&D advisor at [R&D Nordic](https://rdnordic.com), based in Norway.
+I'm based in Norway and spend a slightly unreasonable amount of time messing around with AI, privacy, automation, research tools and whatever else seems interesting.
 
-I work at the point where organisations usually get stuck: privacy, research ethics, IPR, AI adoption, and the practical reality of changing how people actually work. 
-I try to help people turn policy intent into usable systems, clearer decisions, and delivery that can stand up to scrutiny. To achieve this, I focus on what we have to do (not what we say).
+I run **R&D Nordic**, where I work around AI, privacy, governance, behavioural science and applied R&D.
 
-I spend most of my time helping teams use AI in ways that are useful, defensible, and operationally realistic. That includes governance, workflow design, training, automation support, and the behavioural side of adoption so change does not stop at the workshop.
+A lot of what interests me sits somewhere between:
 
-I work with higher education, healthcare, public sector, and creative or research-intensive environments in Norway and the UK, and I am open to collaboration internationally.
+* building useful AI systems and workflows
+* figuring out how AI actually changes the way people work
+* GDPR, privacy and responsible AI
+* local and privacy-friendly AI setups
+* agents, retrieval, automation and coding workflows
+* research, grants and slightly overambitious project ideas
+* behavioural science and why perfectly sensible policies sometimes achieve absolutely nothing
 
-## What I do
+I tend to care more about **what actually works** than what an organisation says it does.
 
-- GDPR, EU AI Act, and governance support that helps organisations prepare, document decisions, and reduce avoidable risk
-- AI systems and workflows that work in practice, including retrieval, agent workflows, automation pipelines, and structured ways of working in tools like Claude/Codex. I also really enjoy helping people set up privacy solutions, local host, models etc.
-- Grant and research development across funding calls, partnerships, budgets, and proposal support
-- Training, leadership support, communication, and adoption work that helps teams use new tools with more confidence and consistency
+## Things I like building
 
-## Get in touch
+I use GitHub partly for work and partly as a workshop.
 
-- [rdnordic.com](https://rdnordic.com)
-- [LinkedIn](https://www.linkedin.com/company/rdnordic)
-- `contact@rdnordic.com`
+You will find things involving:
 
-## Repo purpose
+* AI agents and agentic workflows
+* Claude, Codex and other AI-assisted development tools
+* RAG, search and retrieval experiments
+* privacy and security tools
+* local models and self-hosted setups
+* GDPR / AI governance experiments
+* automations and small utilities
+* research prototypes
+* weird side projects
+* occasional games and creative experiments when I get distracted
 
-This repository contains the working materials for a modular service menu for R&D Nordic.
+Most things here start with some version of "I wonder if we could..." ...and then get progressively more complicated..
 
-The purpose of the repo is twofold:
-- define a client-facing menu of AI-related training and consultancy modules for the website
-- define the internal structure needed to turn selected modules into a structured intake that can later feed an automated PowerPoint workflow
+I'm not primarily a software engineer. I come at this from R&D, privacy, behavioural science and implementation, and increasingly use AI-assisted development to build the things I previously would have just drawn on a whiteboard.
 
-The menu is designed as a premium, outcome-based offer. Clients should be able to browse the modules, select a combination that fits their organisation, and build a tailored programme in the range of a 3 to 10 course meal.
+## R&D Nordic
 
-## Repo structure
+For the more respectable version of what I do:
 
-- [`website-offer/menu.md`](./website-offer/menu.md): client-facing service menu
-- [`website-offer/module-map.md`](./website-offer/module-map.md): internal module registry for delivery and automation
-- [`website-offer/intake-schema.md`](./website-offer/intake-schema.md): structured intake format for email or form-based requests
+**rdnordic.com**
 
-## How the pieces fit together
+**[contact@rdnordic.com](mailto:contact@rdnordic.com)**
 
-1. A client reviews the menu and selects the modules that match their goals.
-2. The selected modules are captured in a structured intake format.
-3. The intake can later be parsed by a script or VS Code workflow.
-4. The parsed data can be mapped to module codes, slide sections, branding notes, and delivery context.
-5. That output can then be used to generate a tailored PowerPoint draft for R&D Nordic to refine.
+I am also happy to hear from researchers, developers, privacy people and other curious humans working on interesting problems, if you are interested in coauthoring a paper, collaborating on something interesting let me know.
 
-## Scope of the current version
+---
 
-This version is intentionally simple:
-- plain Markdown files
-- clear module names and outcomes
-- stable internal module codes
-- compact intake fields that are realistic for a first contact
+## About this repo
 
-It is a commercial working draft for a real consultancy offer, not a finished website build or automation system.
+This repository is a working area for developing the R&D Nordic service menu and the systems around it.
+
+The basic idea is fairly simple:
+
+1. Someone browses a set of AI / R&D / governance modules.
+2. They choose the bits that are actually useful to them.
+3. Those choices become structured input.
+4. That input can eventually feed an automated workflow for producing tailored material, including PowerPoint drafts.
+5. A human still gets to look at it before anything embarrassing gets sent to a client.
+
+Current structure:
+
+```text
+website-offer/menu.md
+    Client-facing service menu
+
+website-offer/module-map.md
+    Internal module registry
+
+website-offer/intake-schema.md
+    Structured intake format
+```
+
+The current version deliberately keeps things simple: Markdown, stable module codes and a small amount of structure.
+
+It is a working commercial prototype rather than a finished product, and will probably mutate considerably as I use it.
