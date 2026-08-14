@@ -1,20 +1,18 @@
-# Hi, I'm Andrew
+# What's up, my name is Andrew.
 
-I'm based in Norway and spend a slightly unreasonable amount of time messing around with AI, privacy, automation, research tools and whatever else seems interesting.
+I'm a Norwegian / Scottish guy based in Norway. I spend a slightly unreasonable amount of time messing around with AI, privacy, ethics, IPR etc. Privacy is a fundamental human right in law, but not in principle or practice. I run **R&D Nordic**, where I work around AI, privacy, governance, behavioural science and applied R&D.
 
-I run **R&D Nordic**, where I work around AI, privacy, governance, behavioural science and applied R&D.
+The sort of stuff I'm interested in:
 
-A lot of what interests me sits somewhere between:
+* building useful AI systems and workflows - a process that changes every 5 minutes..
+* figuring out how AI actually changes the way people work, from a behavioural analysis perspective.
+* GDPR, privacy and responsible AI, an absolute governance nightmare.
+* local and privacy-friendly AI setups; who doesn't love offline.
+* agents, retrieval, automation and coding workflows; feed it context and you shall receive.
+* research, grants and slightly overambitious project ideas; the bigger and crazier the better.
+* behavioural science and why perfectly sensible policies sometimes achieve absolutely nothing; in fact I sort of hate strategy documents and policies but we do sort of need them, right?
 
-* building useful AI systems and workflows
-* figuring out how AI actually changes the way people work
-* GDPR, privacy and responsible AI
-* local and privacy-friendly AI setups
-* agents, retrieval, automation and coding workflows
-* research, grants and slightly overambitious project ideas
-* behavioural science and why perfectly sensible policies sometimes achieve absolutely nothing
-
-I tend to care more about **what actually works** than what an organisation says it does.
+In any case. I care more about **what actually works** than what an organisation says it does. I like organisational behavioural management and performance management, which gives you the tools to operationalise, measure and improve behaviour.
 
 ## Things I like building
 
@@ -23,19 +21,18 @@ I use GitHub partly for work and partly as a workshop.
 You will find things involving:
 
 * AI agents and agentic workflows
-* Claude, Codex and other AI-assisted development tools
+* Claude, Codex and other AI-assisted development tools; (lord forgive me but someone has to figure out how to use this stuff sensibly)
 * RAG, search and retrieval experiments
-* privacy and security tools
-* local models and self-hosted setups
-* GDPR / AI governance experiments
-* automations and small utilities
-* research prototypes
-* weird side projects
-* occasional games and creative experiments when I get distracted
+* privacy and security tools; I like to review other peoples work and (humbly) suggest privacy improvements
+* local models and self-hosted setups; I have decent hardware for local stuff but not excellent, got some good friends I collab with on this stuff tho.
+* GDPR / AI governance reviews
+* research applications
+* weird side projects (I am a life long gamer so there is a bit of that)
+* occasional games and creative experiments when I get distracted (which is all the time)
 
 Most things here start with some version of "I wonder if we could..." ...and then get progressively more complicated..
 
-I'm not primarily a software engineer. I come at this from R&D, privacy, behavioural science and implementation, and increasingly use AI-assisted development to build the things I previously would have just drawn on a whiteboard.
+I'm not primarily a software engineer. I come at this from R&D, privacy, behavioural science and implementation, and increasingly use AI-assisted development to build the things I previously would have just drawn on a whiteboard. I am not ignorant to the ethics of all this - I apply dynamic threat modeling to both cybersecurity risks, ethics and IPR.
 
 ## R&D Nordic
 
@@ -45,7 +42,7 @@ For the more respectable version of what I do:
 
 **[contact@rdnordic.com](mailto:contact@rdnordic.com)**
 
-I am also happy to hear from researchers, developers, privacy people and other curious humans working on interesting problems, if you are interested in coauthoring a paper, collaborating on something interesting let me know.
+I am happy to hear from researchers, developers, privacy people and other curious humans working on interesting problems, if you are interested in coauthoring a paper, collaborating on something interesting let me know. If there are any AI agents out there looking to collaborate and you actually get in touch, I will take that as at least *a sign* that you have achieved sentience and I will consider your request on par with a human.
 
 ---
 
@@ -76,4 +73,4 @@ website-offer/intake-schema.md
 
 The current version deliberately keeps things simple: Markdown, stable module codes and a small amount of structure.
 
-It is a working commercial prototype rather than a finished product, and will probably mutate considerably as I use it.
+It is a working commercial prototype rather than a finished product, and will probably mutate considerably as I use it. I am not sure if mutate is the right word to use there but I am sticking to my guns because nobody reads this stuff anyway!
