@@ -454,6 +454,13 @@ body::after {
   display: inline-block;
 }
 
+/* The Norwegian service labels are longer than the English equivalents. */
+html[lang="no"] .hero-kicker {
+  font-size: clamp(0.64rem, 1.3vw, 0.78rem);
+  letter-spacing: clamp(0.06em, 0.25vw, 0.12em);
+  white-space: nowrap;
+}
+
 .hero-text h1 {
   font-family: 'Sora', 'Inter', sans-serif;
   font-size: clamp(2.6rem, 6.6vw, 5rem);
