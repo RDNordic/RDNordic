@@ -1,16 +1,16 @@
 # What's up, my name is Andrew.
 
-I'm a Norwegian / Scottish guy based in Norway. I spend a slightly unreasonable amount of time messing around with AI, privacy, ethics, IPR etc. Privacy is a fundamental human right in law, but not in principle or practice. I run **R&D Nordic**, where I work around AI, privacy, governance, behavioural science and applied R&D.
+I'm a Norwegian / Scottish guy based in Norway. I recon I spend an unreasonable amount of time messing around with AI, privacy, ethics, IPR etc, but the thing that really gets my goat, is that whilst privacy is recognized as a fundamental human right in law (Article 12 of the Universal Declaration of Human Rights, Article 17 of the International Covenant on Civil and Political Rights), is is NOT in principle or practice. I run **R&D Nordic** and work at a Norwegian University as an R&D advisor. Outside of my public sector work, I am interesting in studying privacy behaviour, both from a consumer and an organisational perspective.
 
 The sort of stuff I'm interested in:
 
 * building useful AI systems and workflows - a process that changes every 5 minutes..
 * figuring out how AI actually changes the way people work, from a behavioural analysis perspective.
-* GDPR, privacy and responsible AI, an absolute governance nightmare.
+* GDPR, privacy and responsible AI, an absolute governance nightmare..
 * local and privacy-friendly AI setups; who doesn't love offline.
 * agents, retrieval, automation and coding workflows; feed it context and you shall receive.
-* research, grants and slightly overambitious project ideas; the bigger and crazier the better.
-* behavioural science and why perfectly sensible policies sometimes achieve absolutely nothing; in fact I sort of hate strategy documents and policies but we do sort of need them, right?
+* research, grants and overambitious project ideas; the bigger and crazier the better.
+* behavioural science and why perfectly sensible policies achieve absolutely nothing; in fact I kind of hate strategy documents and policies but we do sort of need them, right?
 
 In any case. I care more about **what actually works** than what an organisation says it does. I like organisational behavioural management and performance management, which gives you the tools to operationalise, measure and improve behaviour.
 
@@ -30,9 +30,9 @@ You will find things involving:
 * weird side projects (I am a life long gamer so there is a bit of that)
 * occasional games and creative experiments when I get distracted (which is all the time)
 
-Most things here start with some version of "I wonder if we could..." ...and then get progressively more complicated..
+Most things here start with some version of "I wonder if we could..." ...and then get progressively more complicated.. and apologies, but quite a bit of it is unfinished, feel free to nick any of it.
 
-I'm not primarily a software engineer. I come at this from R&D, privacy, behavioural science and implementation, and increasingly use AI-assisted development to build the things I previously would have just drawn on a whiteboard. I am not ignorant to the ethics of all this - I apply dynamic threat modeling to both cybersecurity risks, ethics and IPR.
+"I'm not primarily a software engineer" - seems to be the statement of the decade. Sure I am not. But I am a clever sausage, I know how to do research and I can figure things out. I come at this from R&D, privacy, behavioural science and implementation. I increasingly use AI-assisted development to build the things I previously would have just drawn on a whiteboard. I am not ignorant to the ethics of all this - I apply dynamic threat modeling to both cybersecurity risks, ethics and IPR.
 
 ## R&D Nordic
 
