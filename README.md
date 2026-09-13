@@ -1,6 +1,6 @@
 # What's up, my name is Andrew.
 
-I'm a Norwegian / Scottish guy based in Norway. I recon I spend an unreasonable amount of time messing around with AI, privacy, ethics, IPR etc, but the thing that really gets my goat, is that whilst privacy is recognized as a fundamental human right in law (Article 12 of the Universal Declaration of Human Rights, Article 17 of the International Covenant on Civil and Political Rights), is is NOT in principle or practice. I run **R&D Nordic** and work at a Norwegian University as an R&D advisor. Outside of my public sector work, I am interesting in studying privacy behaviour, both from a consumer and an organisational perspective.
+I'm a Norwegian / Scottish guy based in Norway. I recon I spend an unreasonable amount of time messing around with AI, privacy, ethics, IPR etc, but the thing that really gets my goat, is that whilst privacy is recognized as a fundamental human right (Article 12 of the Universal Declaration of Human Rights, Article 17 of the International Covenant on Civil and Political Rights), is is, for the most part, NOT.. in principle or practice.. I run a small company, **R&D Nordic**, and work at a Norwegian University as an R&D advisor. Outside of my public sector work, I am interesting in studying privacy behaviour, both from a consumer and an organisational perspective.
 
 The sort of stuff I'm interested in:
 
