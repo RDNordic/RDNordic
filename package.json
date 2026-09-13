@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "serve": "python -m http.server 8000",
-    "validate": "python -c \"import pathlib; print('Validating HTML files...'); [print(str(p)) for p in pathlib.Path('.').rglob('*.html') if p.is_file() and '.git' not in p.parts and 'node_modules' not in p.parts]\""
+    "validate": "python tools/validate_site.py"
   },
   "keywords": [
     "consulting",

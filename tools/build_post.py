@@ -97,7 +97,7 @@ STRINGS = {
         "home_root": "/index.html",
         "blog_root": "/blog/",
         "services_menu": "/services/ai-services-menu.html",
-        "nav": [("#hero", "Home"), ("#services", "What We Do"), ("#why-us", "Why Us")],
+        "nav": [("#work", "Work"), ("#lab", "Lab"), ("#about", "About"), ("#contact", "Contact")],
         "nav_blog": "Blog",
         "nav_cases": ("#cases", "Cases"),
         "nav_contact": ("#contact", "Contact"),
@@ -130,7 +130,7 @@ STRINGS = {
         "home_root": "/no/index.html",
         "blog_root": "/no/blog/",
         "services_menu": "/no/services/ai-services-menu.html",
-        "nav": [("#hero", "Hjem"), ("#services", "Hva vi gjør"), ("#why-us", "Hvorfor oss")],
+        "nav": [("#work", "Arbeid"), ("#lab", "Lab"), ("#about", "Om"), ("#contact", "Kontakt")],
         "nav_blog": "Blogg",
         "nav_cases": ("#cases", "Kundecase"),
         "nav_contact": ("#contact", "Kontakt"),
@@ -317,11 +317,7 @@ def render_page(meta: dict, body_md: str) -> str:
         f'\n                <li><a href="{s["home_root"]}{href}">{label}</a></li>'
         for href, label in s["nav"]
     )
-    aiservices = f'\n                <li><a href="{s["services_menu"]}">{s["nav_aiservices"]}</a></li>'
-    blog_li = f'\n                <li><a href="{s["blog_root"]}">{s["nav_blog"]}</a></li>'
-    cases_li = f'\n                <li><a href="{s["home_root"]}{s["nav_cases"][0]}">{s["nav_cases"][1]}</a></li>'
-    contact_li = f'\n                <li><a href="{s["home_root"]}{s["nav_contact"][0]}">{s["nav_contact"][1]}</a></li>'
-    nav = nav_items + aiservices + blog_li + cases_li + contact_li
+    nav = nav_items
 
     lang_switch = (
         f'<a href="/blog/{slug}.html"'
@@ -361,19 +357,20 @@ def render_page(meta: dict, body_md: str) -> str:
     <link rel="alternate" hreflang="x-default" href="{en_url}">
 </head>
 <body>
+    <a class="skip-link" href="#main">{'Skip to content' if lang == 'en' else 'Hopp til innhold'}</a>
     <header class="site-header">
-        <nav class="navbar container">
+        <nav class="navbar container" aria-label="{'Main navigation' if lang == 'en' else 'Hovedmeny'}">
             <a class="logo" href="{s['home_root']}#hero">R&amp;D Nordic</a>
-            <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
             <ul class="nav-links">{nav}
             </ul>
-            <span class="ml-4 text-sm">
+            <span class="language-links">
                 {lang_switch}
             </span>
         </nav>
     </header>
 
-    <main class="container py-8 blog-post">
+    <main id="main" class="container py-8 blog-post">
         <a class="post-back" href="{s['blog_root']}">&larr; {s['back']}</a>
 
         <article>
@@ -412,37 +409,10 @@ def render_page(meta: dict, body_md: str) -> str:
         </article>
     </main>
 
-    <footer class="site-footer">
-        <div class="container footer-layout">
-            <div class="footer-brand">
-                <img src="{asset}images/rndnordiclogo.png" alt="R&amp;D Nordic logo" class="footer-logo">
-                <p class="footer-tagline">{s['tagline']}</p>
-                <p class="footer-legal-line">DAVIDSON NORDIC R&amp;D</p>
-                <p class="footer-legal-line">Org.nr 927 071 444</p>
-                <p class="footer-legal-line">{s['place']}</p>
-                <p><a href="mailto:contact@rdnordic.com">contact@rdnordic.com</a></p>
-            </div>
-            <div class="footer-links-group">
-                <h3>{s['f_company']}</h3>
-                <ul>
-                    <li><a href="{s['home_root']}#about">{s['f_team']}</a></li>
-                    <li><a href="{s['blog_root']}">{s['f_blog']}</a></li>
-                </ul>
-            </div>
-            <div class="footer-links-group">
-                <h3>{s['f_resources']}</h3>
-                <ul>
-                    <li><a href="{s['f_faq'][0]}">{s['f_faq'][1]}</a></li>
-                    <li><a href="{s['f_menu'][0]}">{s['f_menu'][1]}</a></li>
-                    <li><a href="{s['f_review'][0]}">{s['f_review'][1]}</a></li>
-                    <li><a href="{s['f_contact'][0]}">{s['f_contact'][1]}</a></li>
-                    <li><a href="mailto:contact@rdnordic.com">{s['f_email']}</a></li>
-                    <li><a href="{s['f_privacy'][0]}">{s['f_privacy'][1]}</a></li>
-                </ul>
-            </div>
-        </div>
-        <p class="footer-copyright">&copy; 2026 R&amp;D Nordic. {s['copyright']}</p>
-    </footer>
+    <footer class="site-footer"><div class="container office-footer">
+        <div><p class="footer-name">R&amp;D Nordic AS</p><p>{'Org. no.' if lang == 'en' else 'Org.nr.'} 938 385 874 · {s['place']}</p><a href="mailto:contact@rdnordic.com">contact@rdnordic.com</a></div>
+        <nav aria-label="{'Further reading' if lang == 'en' else 'Les videre'}"><a href="{s['blog_root']}">{'Research notes' if lang == 'en' else 'Forskningsnotater'}</a><a href="{s['f_faq'][0]}">FAQ</a><a href="{s['f_menu'][0]}">{'Workshops &amp; training' if lang == 'en' else 'Workshops og opplæring'}</a><a href="{s['f_privacy'][0]}">{'Privacy notice' if lang == 'en' else 'Personvernerklæring'}</a></nav>
+    </div></footer>
 <script src="{asset}site.js" defer></script>
 </body>
 </html>
