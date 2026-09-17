@@ -1685,3 +1685,11 @@ main { overflow-wrap: anywhere; }
 main.container { padding-top: 3rem; padding-bottom: 3rem; }
 .text-brand-blue, .text-blue-700 { color: var(--ink); }
 .text-gray-700 { color: var(--ink-soft); }
+
+/* Logo placement trial: intrinsic dimensions reserve space while the image loads. */
+.nav-brand-image { display: block; width: 160px; height: auto; }
+.office-hero .office-brand-heading { line-height: 0; }
+.hero-brand-image { display: block; width: 540px; max-width: 100%; height: auto; }
+@media (max-width: 768px) {
+  .nav-brand-image { width: 145px; }
+}
