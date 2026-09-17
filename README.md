@@ -48,29 +48,34 @@ I am happy to hear from researchers, developers, privacy people and other curiou
 
 ## About this repo
 
-This repository is a working area for developing the R&D Nordic service menu and the systems around it.
+This repository contains the website for **R&D Nordic AS** at [rdnordic.com](https://rdnordic.com/), alongside working notes for service development.
 
-The basic idea is fairly simple:
+R&D Nordic is a small independent research and advisory company based in Hamar, Norway. The work brings together applied R&D, responsible AI, privacy, governance and project development. I welcome both direct consultancy assignments and collaboration on externally funded research and innovation projects. An interesting problem or an early project idea is enough to start a conversation.
 
-1. Someone browses a set of AI / R&D / governance modules.
-2. They choose the bits that are actually useful to them.
-3. Those choices become structured input.
-4. That input can eventually feed an automated workflow for producing tailored material, including PowerPoint drafts.
-5. A human still gets to look at it before anything embarrassing gets sent to a client.
+The website is deliberately simple: plain HTML and CSS, self-hosted fonts and images, and a little JavaScript on the detail pages. No framework, build step, analytics, tracking scripts or third-party asset dependencies. English and Norwegian versions are maintained together.
+
+The homepage follows four themes: **Work, Lab, About and Contact**. The Lab is a place for experiments, prototypes and research notes, starting with the published notes already on the site. It does not need to turn every experiment into a product.
 
 Current structure:
 
 ```text
-website-offer/menu.md
-    Client-facing service menu
-
-website-offer/module-map.md
-    Internal module registry
-
-website-offer/intake-schema.md
-    Structured intake format
+index.html          English homepage
+no/                 Norwegian pages
+services/           Detailed service pages
+blog/               Published research notes and articles
+images/ and fonts/  Local assets
+style.css           Shared styles
+site.js             Progressive enhancements for detail pages
+tools/              Blog renderer and offline site validator
+website-offer/      Service-menu, module and intake working notes
 ```
 
-The current version deliberately keeps things simple: Markdown, stable module codes and a small amount of structure.
+To preview locally, run this from the repository root:
 
-It is a working commercial prototype rather than a finished product, and will probably mutate considerably as I use it. I am not sure if mutate is the right word to use there but I am sticking to my guns because nobody reads this stuff anyway!
+```bash
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+Then open [localhost:8000](http://localhost:8000). Run `python tools/validate_site.py` (or `npm run validate`) to check local links, assets, anchors and page structure. No dependency installation is needed.
+
+The site is published through GitHub Pages from `main`; pushing to that branch updates the live website. Keep English and Norwegian changes in step, check mobile layouts, and preserve the privacy controls. See [CONTRIBUTING.md](CONTRIBUTING.md) for development notes and [README-blog.md](README-blog.md) for the article publishing workflow.
