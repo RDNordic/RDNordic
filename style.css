@@ -1628,6 +1628,7 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
 .office-section { padding-top: 4.5rem; padding-bottom: 4.5rem; border-top: 1px solid var(--line); }
 .office-section h2 { font-weight: 400; font-size: clamp(1.85rem, 3.3vw, 2.65rem); letter-spacing: -0.045em; line-height: 1.2; margin: 1.25rem 0; }
 .section-intro { color: var(--ink-soft); max-width: 43rem; }
+.section-intro + .section-intro { margin-top: 1rem; }
 .office-areas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem; margin-top: 3rem; }
 .office-areas h3, .work-row h3 { font-size: 1.2rem; font-weight: 600; line-height: 1.4; }
 .office-areas h3 { margin: 1rem 0; }
