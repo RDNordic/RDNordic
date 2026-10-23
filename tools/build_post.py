@@ -317,7 +317,9 @@ def render_page(meta: dict, body_md: str) -> str:
         f'\n                <li><a href="{s["home_root"]}{href}">{label}</a></li>'
         for href, label in s["nav"]
     )
-    nav = nav_items
+    speaking_root = "/no/services/talks-workshops.html" if lang == "no" else "/services/talks-workshops.html"
+    speaking_label = "Foredrag og workshops" if lang == "no" else "Talks &amp; workshops"
+    nav = f'<li><a href="{speaking_root}">{speaking_label}</a></li>' + nav_items
 
     lang_switch = (
         f'<a href="/blog/{slug}.html"'
@@ -360,7 +362,7 @@ def render_page(meta: dict, body_md: str) -> str:
     <a class="skip-link" href="#main">{'Skip to content' if lang == 'en' else 'Hopp til innhold'}</a>
     <header class="site-header">
         <nav class="navbar container" aria-label="{'Main navigation' if lang == 'en' else 'Hovedmeny'}">
-            <a class="logo" href="{s['home_root']}#hero"><img class="nav-brand-image" src="/images/logo-2026-metallic.png" alt="R&amp;D Nordic" width="2114" height="744" decoding="async"></a>
+            <a class="logo" href="{s['home_root']}#hero"><img class="nav-brand-image" src="/images/logo-2026-metallic-matched.png" alt="R&amp;D Nordic" width="2114" height="744" decoding="async"></a>
 
             <ul class="nav-links">{nav}
             </ul>
